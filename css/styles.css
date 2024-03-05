@@ -19,6 +19,9 @@ nav {
   align-items: center;
   background-color: black;
 }
+nav span {
+  color: #79addc;
+}
 nav .nav-holder {
   position: absolute;
   margin: 0 auto;
@@ -36,9 +39,7 @@ nav .nav-holder {
 nav .nav-holder .logo .logotravel {
   width: 95px;
   height: 42px;
-  border-color: white;
-  border-style: solid;
-  border-width: 1px;
+  background-image: url(../images/logo-white.png);
 }
 nav .nav-holder div {
   display: flex;
@@ -50,7 +51,7 @@ nav .nav-holder div {
 nav .nav-holder a {
   margin-left: 25px;
   color: white;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration: none;
   font-family: "Gill Sans";
 }
@@ -599,20 +600,14 @@ nav .nav-holder a {
 }
 .footer-box .footer-holder .logo {
   display: flex;
-  color: white;
-  font-size: 35px;
 }
 .footer-box .footer-holder .logo .logotravel {
   width: 95px;
   height: 42px;
-  border-color: white;
-  border-style: solid;
-  border-width: 1px;
+  background-image: url(../images/logo-white.png);
 }
 .footer-box .footer-holder .logo div {
   padding-top: 18px;
-  font-family: "Gill Sans";
-  font-size: 25px;
 }
 .footer-box .footer-holder .media {
   display: flex;
@@ -648,12 +643,16 @@ nav {
   justify-content: center;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: white;
+  padding: 50 50;
+}
+nav span {
+  color: #79ADDC;
 }
 nav .about-nav-holder {
   position: absolute;
   margin: 0 auto;
-  width: 980px;
+  min-width: 980px;
   height: 90px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0);
@@ -667,9 +666,7 @@ nav .about-nav-holder {
 nav .about-nav-holder .logo .logotravel {
   width: 95px;
   height: 42px;
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
+  background-image: url(../images/logo-black.png);
 }
 nav .about-nav-holder div {
   display: flex;
@@ -681,7 +678,7 @@ nav .about-nav-holder div {
 nav .about-nav-holder a {
   margin-left: 25px;
   color: black;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration: none;
   font-family: "Gill Sans";
 }
@@ -701,22 +698,171 @@ nav .about-nav-holder a {
 }
 .about .about-holder {
   width: 100%;
-  font-family: gillSans;
-  font-style: thin;
-  background-color: palegreen;
 }
 .about .about-holder .about-text {
   width: 17%;
   background: rgba(0, 0, 0, 0);
   border-bottom: 1px solid black;
-  font-size: 30px;
-  background-color: palevioletred;
+  font-size: 35px;
+}
+.about .about-holder .about-text h1 {
+  font-family: "Gill Sans";
+  font-weight: normal;
 }
 .about .about-holder .info {
+  height: 100px;
   width: 100%;
   padding-top: 36.5px;
   font-size: 16px;
-  background-color: pink;
+  font-family: "Gill Sans";
+}
+
+.clients {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  max-width: 980px;
+}
+.clients .client-holder {
+  min-width: 100%;
+  min-height: 100%;
+}
+.clients .client-holder .client-header {
+  max-width: 30%;
+  height: 60px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid black;
+}
+.clients .client-holder .client-header h1 {
+  font-weight: normal;
+  font-family: "Gill Sans";
+}
+.clients .client-holder .girl {
+  margin-top: 37px;
+  max-width: 711px;
+  height: 150px;
+  display: flex;
+}
+.clients .client-holder .girl .girlImage {
+  width: 260px;
+  height: 150px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  background-image: url(../images/about-client-01.jpg);
+}
+.clients .client-holder .girl .girlText {
+  width: 385px;
+  height: 150px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "Gill Sans";
+}
+.clients .client-holder .girl .girlText .girlName {
+  padding-top: 40px;
+  padding-left: 240px;
+  font-size: 20px;
+}
+.clients .client-holder .girl .girlText .girlName h4 {
+  font-family: "Gill Sans";
+  font-weight: normal;
+  color: #79ADDC;
+}
+.clients .client-holder .boy {
+  margin-top: 37px;
+  min-width: 100%;
+  height: 150px;
+  display: flex;
+}
+.clients .client-holder .boy .boyImage {
+  width: 260px;
+  height: 150px;
+  background-color: black;
+  background-image: url(../images/about-client-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.clients .client-holder .boy .boyText {
+  width: 385px;
+  height: 150px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "Gill Sans";
+}
+.clients .client-holder .boy .boyText .boyName {
+  padding-top: 40px;
+  padding-left: 240px;
+  font-size: 20px;
+}
+.clients .client-holder .boy .boyText .boyName h4 {
+  font-family: "Gill Sans";
+  font-weight: normal;
+  color: #79ADDC;
+}
+
+.about-footer-box {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  max-width: 1280px;
+  font-family: "Gill Sans";
+}
+.about-footer-box .footer-holder {
+  height: 100px;
+  width: 100%;
+  background-color: #79ADDC;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  color: white;
+  margin-top: 120px;
+}
+.about-footer-box .footer-holder .logo {
+  display: flex;
+}
+.about-footer-box .footer-holder .logo .logotravel {
+  width: 95px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+}
+.about-footer-box .footer-holder .logo div {
+  padding-top: 18px;
+}
+.about-footer-box .footer-holder .media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-footer-box .footer-holder .media .fb {
+  font-size: 25px;
+  color: white;
+  margin-right: 10px;
+}
+.about-footer-box .footer-holder .media .insta {
+  font-size: 25px;
+  color: white;
+}
+.about-footer-box .footer-holder .media .twitter {
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+}
+
+@media all and (max-width: 850px) {
+  .footer-box {
+    margin-top: 300px;
+  }
+  .footer-box .footer-holder {
+    height: 100px;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

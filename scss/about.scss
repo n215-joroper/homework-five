@@ -14,25 +14,33 @@
 
     .about-holder{
         width: 100%;
-        font-family: gillSans;
-        font-style: thin;
-        background-color: palegreen;
+        
+        //background-color: palegreen;
        
         
         .about-text{
+            h1{
+                font-family: 'Gill Sans';
+                font-weight: normal;
+                
+                //font-weight: normal;
+            }
+            
             width: 17%;
             background: rgba(0,0,0,0);
             border-bottom: 1px solid black;
-            font-size:30px;
-            background-color: palevioletred;
+            font-size:35px;
+            //background-color: palevioletred;
             
         }
 
         .info{
+            height: 100px;
             width: 100%;
             padding-top: 36.5px;
             font-size: 16px;
-            background-color: pink;
+            font-family: 'Gill Sans'
+            //background-color: pink;
         }
     }
 }

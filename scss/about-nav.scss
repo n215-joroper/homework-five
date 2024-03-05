@@ -3,14 +3,21 @@ nav{
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: white;
+    //min-width: 980px;
+    //height: 90px;
+    padding: 50 50;
+    
+    span{
+        color: #79ADDC;
+    }
     
     
     
     .about-nav-holder{
         position: absolute;
         margin: 0 auto;
-        width: 980px;
+        min-width: 980px;
         height: 90px;
         box-sizing: border-box;
         background: rgba(0,0,0,0);
@@ -26,10 +33,7 @@ nav{
             .logotravel{
                 width: 95px;
                 height: 42px;
-                
-                border-color: black;
-                border-style: solid;
-                border-width: 1px;
+                background-image: url(../images/logo-black.png);
                 
 
             }
@@ -47,7 +51,7 @@ nav{
             a{
                 margin-left: 25px;
                 color: black;
-                font-size: 14px;
+                font-size: 17px;
                 text-decoration: none;
                 font-family: 'Gill Sans';
             }
